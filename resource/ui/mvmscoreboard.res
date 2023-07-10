@@ -144,25 +144,23 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"CreditStatsContainer"
 		"xpos"										"0"
-		"ypos"										"5"
+		"ypos"										"200"
 		"wide"										"524"
-		"tall"										"50"
+		"tall"										"f0"
 		"visible"									"1"
 		"bgcolor_override"							"0 0 0 0"
-		"pin_to_sibling"							"PlaylistBG"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+
 
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"							"CCreditDisplayPanel"
 			"fieldName"								"PreviousWaveCreditInfoPanel"
-			"xpos"									"0"
+			"xpos"									"10"
 			"ypos"									"0"
 			"wide"									"262"
-			"tall"									"44"
+			"tall"									"f0"
 			"visible"								"1"
-			"bgcolor_override"						"0 0 0 200"
+			"bgcolor_override"						"0 0 0 0"
 		}
 		"PreviousWaveCreditSpendPanel"
 		{
@@ -171,7 +169,7 @@
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"262"
-			"tall"									"44"
+			"tall"									"f0"
 			"visible"								"1"
 			"pin_to_sibling"						"PreviousWaveCreditInfoPanel"
 		}
@@ -180,16 +178,14 @@
 		{
 			"ControlName"							"CCreditDisplayPanel"
 			"fieldName"								"TotalGameCreditInfoPanel"
-			"xpos"									"2"
-			"ypos"									"0"
+			"xpos"									"0"
+			"ypos"									"-80"
 			"wide"									"262"
-			"tall"									"44"
+			"tall"									"f0"
 			"visible"								"1"
-			"bgcolor_override"						"0 0 0 200"
+			"bgcolor_override"						"0 0 0 0"
 
 			"pin_to_sibling"						"PreviousWaveCreditSpendPanel"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"TotalGameCreditSpendPanel"
@@ -199,7 +195,7 @@
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"262"
-			"tall"									"44"
+			"tall"									"f0"
 			"visible"								"1"
 			"pin_to_sibling"						"TotalGameCreditInfoPanel"
 		}

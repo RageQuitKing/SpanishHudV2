@@ -48,12 +48,12 @@
 	{
 		"ControlName"								"CCurrencyStatusPanel"
 		"fieldName"									"CurrencyStatusPanel"
-		"xpos"										"c-32"
-		"ypos"										"c+40"
-		"wide"										"60"
+		"xpos"										"100"
+		"ypos"										"100"
+		"wide"										"120"
 		"tall"										"18"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"visible" 									"0"
+		"enabled" 									"0"
 	}
 
 	"InWorldCurrencyPanel"
@@ -64,8 +64,8 @@
 		"ypos"										"c+25"
 		"wide"										"60"
 		"tall"										"18"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"visible" 									"0"
+		"enabled" 									"0"
 	}
 
 	"WarningSwoop"
@@ -78,7 +78,7 @@
 		"wide"										"24"
 		"tall"										"220"
 		"visible"									"0"
-		"enabled"									"1"
+		"enabled"									"0"
 		"image"										"../sprites/obj_icons/warning_highlight"
 		"scaleImage"								"1"
 		"time"										"0.3"

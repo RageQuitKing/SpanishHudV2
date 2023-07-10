@@ -329,6 +329,7 @@
 		"fieldName"									"ServerLabel"
 		"xpos"										"-5"
 		"ypos"										"0"
+		"zpos"										"3"
 		"wide"										"300"
 		"tall"										"15"
 		"visible"									"1"
@@ -430,11 +431,11 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
-		"xpos"										"5"
-		"ypos"										"5"
+		"xpos"										"0"
+		"ypos"										"1"
 		"zpos"										"2"
-		"wide"										"p1.01"
-		"tall"										"20"
+		"wide"										"100"
+		"tall"										"465"
 		"visible"									"1"
 		"enabled"									"1"
 		"fillcolor"									"0 0 0 200"
@@ -449,27 +450,25 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HorizontalLine"
-		"xpos"										"0"
+		"xpos"										"-100"
 		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"p1.01"
-		"tall"										"1"
+		"zpos"										"4"
+		"wide"										"1"
+		"tall"										"1080"
 		"visible"									"1"
 		"enabled"									"1"
 		"fillcolor"									"127 127 127 153"
 		"PaintBackgroundType"						"0"
 
-		"pin_to_sibling"							"ShadedBar"
-		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_to_sibling" 						"ShadedBar"
 	}
 
 	"MapName"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapName"
-		"xpos"										"-15"
-		"ypos"										"0"
+		"xpos"										"-4"
+		"ypos"										"-10"
 		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"15"
@@ -478,11 +477,8 @@
 		"fgcolor"									"White"
 		"font"										"m0refont11"
 		"labelText"									"%mapname%"
-		"textAlignment"								"east"
 
-		"pin_to_sibling"							"HorizontalLine"
-		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling" 						"ShadedBar"
 	}
 
 	"LocalPlayerStatsPanel"
@@ -492,8 +488,8 @@
 		"xpos"										"0"
 		"ypos"										"rs1-1"
 		"zpos"										"3"
-		"wide"										"f0"
-		"tall"										"50"
+		"wide"										"100"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -502,8 +498,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"K/D"
-			"xpos"									"75"
-			"ypos"									"15"
+			"xpos"									"40"
+			"ypos"									"34"
 			"zpos"									"3"
 			"wide"									"10"
 			"tall"									"35"
@@ -513,6 +509,8 @@
 			"fgcolor" 								"White"
 			"labelText"								":"
 			"textAlignment"							"center"
+			
+			"pin_to_sibling" 						"ShadedBar"
 		}
 
 		"KillsWhite"
@@ -526,7 +524,7 @@
 			"tall"									"35"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"m0refont48"
+			"font"									"m0refont36"
 			"fgcolor" 								"White"
 			"labelText"								"%kills%"
 			"textAlignment"							"east"
@@ -547,7 +545,7 @@
 			"tall"									"35"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"m0refont48"
+			"font"									"m0refont36"
 			"fgcolor" 								"White"
 			"labelText"								"%deaths%"
 			"textAlignment"							"west"
@@ -561,8 +559,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"AssistsLabel"
-			"xpos"									"105"
-			"ypos"									"34"
+			"xpos"									"-40"
+			"ypos"									"68"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -572,6 +570,9 @@
 			"fgcolor" 								"White"
 			"labelText"								"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"							"east"
+			
+			"pin_to_sibling" 						"ShadedBar"
+			
 		}
 
 		"AssistsWhite"
@@ -600,7 +601,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"DestructionLabel"
 			"xpos"									"0"
-			"ypos"									"-3"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -612,8 +613,6 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling" 						"AssistsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 
 		"DestructionWhite"
@@ -641,8 +640,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapturesLabel"
-			"xpos"									"-46"
-			"ypos"									"0"
+			"xpos"									"0"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -653,9 +652,7 @@
 			"labelText"								"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"AssistsWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling" 						"DestructionLabel"
 		}
 
 		"CapturesWhite"
@@ -684,7 +681,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"DefensesLabel"
 			"xpos"									"0"
-			"ypos"									"-3"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -696,8 +693,6 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling" 						"CapturesLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 
 		"DefensesWhite"
@@ -725,8 +720,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DominationLabel"
-			"xpos"									"-46"
-			"ypos"									"0"
+			"xpos"									"0"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -737,9 +732,7 @@
 			"labelText"								"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"CapturesWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling" 						"DefensesLabel"
 		}
 
 		"DominationWhite"
@@ -768,7 +761,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"RevengeLabel"
 			"xpos"									"0"
-			"ypos"									"-3"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -780,8 +773,6 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling" 						"DominationLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 
 		"RevengeWhite"
@@ -809,8 +800,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HealingLabel"
-			"xpos"									"-46"
-			"ypos"									"0"
+			"xpos"									"0"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -821,9 +812,7 @@
 			"labelText"								"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"DominationWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling" 						"RevengeLabel"
 		}
 
 		"HealingWhite"
@@ -852,7 +841,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"InvulnLabel"
 			"xpos"									"0"
-			"ypos"									"-3"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -864,8 +853,6 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling" 						"HealingLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 
 		"InvulnWhite"
@@ -893,8 +880,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TeleportsLabel"
-			"xpos"									"-46"
-			"ypos"									"0"
+			"xpos"									"0"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -905,9 +892,7 @@
 			"labelText"								"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"HealingWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling" 						"InvulnLabel"
 		}
 
 		"TeleportsWhite"
@@ -936,7 +921,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"HeadshotsLabel"
 			"xpos"									"0"
-			"ypos"									"-3"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -948,8 +933,6 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling" 						"TeleportsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 
 		"HeadshotsWhite"
@@ -977,8 +960,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BackstabsLabel"
-			"xpos"									"-46"
-			"ypos"									"0"
+			"xpos"									"0"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -989,9 +972,7 @@
 			"textAlignment"							"east"
 			"fgcolor" 								"White"
 
-			"pin_to_sibling" 						"TeleportsWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling" 						"HeadshotsLabel"
 		}
 
 		"BackstabsWhite"
@@ -1020,7 +1001,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"DamageLabel"
 			"xpos"									"0"
-			"ypos"									"-3"
+			"ypos"									"-8"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -1032,8 +1013,6 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling" 						"BackstabsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 
 		"DamageWhite"
