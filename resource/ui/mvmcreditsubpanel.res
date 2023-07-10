@@ -172,7 +172,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditRatingLabel"
-		"xpos"										"0"
+		"xpos"										"60"
 		"ypos"										"0"
 		"wide"										"20"
 		"tall"										"12"
@@ -183,10 +183,6 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"0 0 0 0"
-
-		"pin_to_sibling"							"HeaderLabel"
-		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 

@@ -6,7 +6,7 @@
 		"fieldName"									"HeaderLabel"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"f0"
+		"wide"										"100"
 		"tall"										"12"
 		"font"										"m0refont10"
 		"labelText"									""
