@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"12"
-		"font"										"ScoreboardVerySmall"
+		"font"										"M0refont10"
 		"labelText"									"%header%"
 		"textAlignment" 							"west"
 		"textinsetx" 								"5"
@@ -147,27 +147,6 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
-	"Separator"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"Separator"
-		"xpos"										"0"
-		"ypos"										"-3"
-		"zpos"										"1"
-		"wide"										"1"
-		"tall"										"27"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 0"
-
-		"pin_to_sibling"							"TableBackground"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}
-
 	"CreditRatingLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -176,7 +155,7 @@
 		"ypos"										"0"
 		"wide"										"20"
 		"tall"										"12"
-		"font"										"m0refont12"
+		"font"										"m0refont10"
 		"labelText"									"%rating%"
 		"textAlignment" 							"center"
 		"fgcolor"									"White"

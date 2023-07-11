@@ -446,6 +446,7 @@
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
+////////////////////////////////////////////////////////////////////////////
 	"HorizontalLine"
 	{
 		"ControlName"								"ImagePanel"
@@ -454,7 +455,7 @@
 		"ypos"										"0"
 		"zpos"										"4"
 		"wide"										"1"
-		"tall"										"1080"
+		"tall"										"1081"
 		"visible"									"1"
 		"enabled"									"1"
 		"fillcolor"									"127 127 127 153"
@@ -1036,6 +1037,59 @@
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
+		
+////////////////////////////////////////////////////////////////
+	"HorizontalLineLLL"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HorizontalLineLLL"
+		"xpos"										"15"
+		"ypos"										"-12"
+		"zpos"										"4"
+		"wide"										"120"
+		"tall"										"1"
+		"visible"									"1"
+		"enabled"									"1"
+		"fillcolor"									"127 127 127 153"
+		"PaintBackgroundType"						"0"
+
+		"pin_to_sibling" 						"DestructionLabel"
+	}
+	
+	"HorizontalLineL"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HorizontalLineL"
+		"xpos"										"15"
+		"ypos"										"-12"
+		"zpos"										"4"
+		"wide"										"120"
+		"tall"										"1"
+		"visible"									"1"
+		"enabled"									"1"
+		"fillcolor"									"127 127 127 153"
+		"PaintBackgroundType"						"0"
+
+		"pin_to_sibling" 						"TeleportsLabel"
+	}
+	
+	"HorizontalLineLL"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HorizontalLineLL"
+		"xpos"										"15"
+		"ypos"										"-12"
+		"zpos"										"4"
+		"wide"										"120"
+		"tall"										"1"
+		"visible"									"1"
+		"enabled"									"1"
+		"fillcolor"									"127 127 127 153"
+		"PaintBackgroundType"						"0"
+
+		"pin_to_sibling" 						"BackstabsLabel"
+	}
+////////////////////////////////////////////////////////////////
 
 		"Kills"
 		{

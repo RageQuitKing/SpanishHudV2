@@ -339,8 +339,9 @@
 		"fieldName"									"CurrencyStatusPanel"
 		"xpos"										"c-27"
 		"ypos"										"c+40"
-		"wide"										"80"
+		"wide"										"50"
 		"tall"										"15"
+		"textAlignment"								"center"
 	}
 
 
